@@ -1,0 +1,1 @@
+// Given the string "LearnJavaScript", extract the first 10 characters.
