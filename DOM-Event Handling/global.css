@@ -1,0 +1,46 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px 60px;
+    cursor: pointer;
+    text-align: left;
+}
+
+
+#para{
+    display: none;
+}
+#btn{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgb(156, 155, 155);
+    border-radius: 5px;
+}
+#btn:hover{
+    background-color: rgb(164, 162, 162);
+}
+
+form{
+    text-align: left;
+}
+
+input{
+    outline: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+input[checkbox] {
+    border: 1px solid gray;
+}
